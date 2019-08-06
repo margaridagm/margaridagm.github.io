@@ -8,8 +8,8 @@ window.onload=function CalendarView() {
 	var vizDiv = document.getElementById('viz');
 	var vizURL = 'http://bionic-tableau/views/calendarsformobile/calendar1_dashboard';
 	var options = {
-		width: '335px',
-		height: '600px',
+		width: '325px',
+		height: '500px',
 		hideToolbar: true,
 		hideTabs: true
 	};

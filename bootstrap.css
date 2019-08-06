@@ -7,12 +7,7 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
- #phone{
-  width: 1258px;
-  height: 1000px;
-  
 
- }
 .clearfix {
   *zoom: 1;
 }
@@ -94,13 +89,13 @@ sub {
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
 
-  max-width: 100%;
+  /*max-width: 100%;
   /* Part 1: Set a maxium relative to the parent */
 
-  width: auto\9;
+  width: 1230px;
   /* IE7-8 need help adjusting responsive images */
 
-  height: auto;
+  height: 900px;
   /* Part 2: Scale the height according to the width, otherwise you get stretching */
 
   vertical-align: middle;
