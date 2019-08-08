@@ -6,7 +6,9 @@ var viz, workbook;
 
 window.onload=function CalendarView() {
 	var vizDiv = document.getElementById('viz');
-	var vizURL = 'http://bionic-tableau/views/calendarsformobile/calendar1_dashboard';
+
+	var vizURL = 'https://public.tableau.com/authoring/calendars/calendar1_dashboard#1';
+	//var vizURL = 'http://bionic-tableau/views/calendarsformobile/calendar1_dashboard';
 	var options = {
 		width: '325px',
 		height: '500px',
