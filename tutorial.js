@@ -7,7 +7,7 @@ var viz, workbook;
 window.onload=function CalendarView() {
 	var vizDiv = document.getElementById('viz');
 
-	var vizURL = 'https://public.tableau.com/profile/margarida.morais4935#!/vizhome/calendars/calendar1_dashboard';
+	var vizURL = 'https://public.tableau.com/shared/QM2PR9S68?:display_count=yes&:origin=viz_share_link';
 	//var vizURL = 'http://bionic-tableau/views/calendarsformobile/calendar1_dashboard';
 	var options = {
 		width: '325px',
