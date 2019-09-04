@@ -4,7 +4,7 @@ var viz, workbook;
 window.onload=function CalendarView() {
 	var vizDiv = document.getElementById('viz');
 
-	var vizURL= 'httphttp://bionic-tableau/views/table/DashboardTable3?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no://bionic-tableau/javascripts/api/viz_v1.js';
+	var vizURL= 'http://bionic-tableau/views/table/DashboardTable3?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no://bionic-tableau/javascripts/api/viz_v1.js';
 	//var vizURL = 'https://public.tableau.com/shared/82GYX54KR?:display_count=yes&:origin=viz_share_link';
 	//var vizURL = 'http://bionic-tableau/views/calendarsformobile/calendar1_dashboard';
 	var options = {
